@@ -1,0 +1,20 @@
+table {
+    border-collapse: collapse;
+
+    width: 500px;
+    text-align: center;
+}
+
+caption {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+tr, td, th { border: 1px solid gray; }
+
+td, th { padding: 10px; }
+
+th { background-color: lightgray; }
+
+td:first-child { width: 50px; }
