@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Анкета | Тишулин</title>
+    <link rel="stylesheet" href="./form_style.css" />
+  </head>
+
+  <body>
+    <form class="form-container" action="#">
+			<h3 class="form-item-title">Анкета</h3>
+			<label for="forname">Фамилия</label>
+			<input type="text" name="forname" id="forname" />
+
+			<label for="name">Имя</label>
+			<input type="text" name="name" id="name" />
+
+			<label for="email">E-Mail</label>
+			<input type="text" name="email" id="email" />
+
+			<input type="radio" id="male" value="male" name="gender" />
+			<label for="male">Мужской</label>
+
+			<input type="radio" id="female" value="female" name="gender" />
+			<label for="female">Женский</label>
+
+			<select name="country" id="country">
+				<option value="none" selected>- Выберите страну -</option>
+				<option value="ru">Россия</option>
+				<option value="ru">Беларусь</option>
+				<option value="uk">Украина</option>
+				<option value="kz">Казахстан</option>
+
+				<option value="ge">Германия</option>
+				<option value="fr">Франция</option>
+				<option value="es">Испания</option>
+				<option value="it">Италия</option>
+			</select>
+
+			<textarea name="about" id="about" cols="30" rows="4"></textarea>
+
+			<label for="birchday">Дата рождения</label>
+			<input type="datetime-local" name="birchday" id="birchday" />
+
+			<input type="checkbox" id="red" value="magister" name="studtype" />
+			<label for="red">Магистрат</label>
+
+			<input type="checkbox" id="blue" value="bakalavr" name="studtype" />
+			<label for="blue">Бакалавр</label>
+
+			<input type="checkbox" id="green" value="special" name="studtype" />
+			<label for="green">Специалитет</label>
+
+			<input type="checkbox" id="black" value="aspirant" name="studtype" />
+			<label for="black">Аспирант</label>
+
+			<button type="submit">Сохранить</button>
+		</form>
+  </body>
+  
+</html>
